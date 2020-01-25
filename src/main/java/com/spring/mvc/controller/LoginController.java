@@ -18,8 +18,6 @@ import com.spring.mvc.dto.UserDto;
 
 @Controller
 public class LoginController {
-
-	
 	@Autowired
 	UserDao  userService;
 	  @RequestMapping(value = "/login", method = RequestMethod.GET)
